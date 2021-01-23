@@ -22,17 +22,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scroll-down.js"></script>
+    <link rel="icon" href="images/prathik.png">
 
 </head>
 
-<body>
-    <section>
+<body style="overflow-x: hidden;">
+    <!-- <section>
         <div id="page-container ">
             <div id="content-wrap ">
                 <nav class="navbar navbar-dark bg-dark " style="padding-top: 1%; padding-bottom: 1%; padding-left: 2%; padding-right: 2%;">
                     
-                    <img src="images/Prathik Circle.png" alt="alternatetext" width="4%" height="4%">
+                    <img src="images/prathik.png" alt="alternatetext" width="4%" height="4%">
                     <a class="navbar-brand " href="/ " style="font-size: 140%; font-family: Bungee; margin-right: 75%">Prathik Pradeep</a>
 
                     <div class="btn-group">
@@ -50,18 +52,75 @@
                     </div>
 
                 </nav>
+    </section> -->
+
+    <section style="width: 100vw; height: 100vh;">
+        <nav class="navbar navbar-dark bg-dark " style="padding-top: 1%; padding-bottom: 1%; padding-left: 2%; padding-right: 2%;">
+                    
+            <img src="images/prathik.png" alt="alternatetext" width="4%" height="4%">
+            <a class="navbar-brand " href="/ " style="font-size: 140%; font-family: Bungee; margin-right: 75%">Prathik Pradeep</a>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Projects
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <h6 class="dropdown-header">Current:</h6>
+                    <a class="dropdown-item" href="https://coderproject.tech">TECProject</a>
+                    <a class="dropdown-item" href="https://exobot.xyz">Ξ X 0 Discord Bot</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">In Development:</h6>
+                    <a class="dropdown-item" href="#">Atom URL Shortener</a>
+                </div>
+            </div>
+
+        </nav>
+        <div style="background-image: url('images/fluid.jpg'); background-repeat: no-repeat; background-attachment: scroll; background-size: cover; overflow-x: hidden; width: 100vw; height: 100vh;">
+            <h1 style="font-family: Oswald; font-size: 1000%; text-align: center; margin-top: 12%; margin-bottom: 5%;">Welcome to My Website</h1>
+            <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="images/down-arrow.png" style="margin-left: 45%; margin-top: 2%; animation-name: moveUp; animation-duration: 1.5s; animation-iteration-count: infinite; animation-direction: alternate;"></a>
+        </div>
     </section>
 
-    <section>
-        <div style="background-image: url('images/fluid.jpg'); background-repeat: no-repeat; background-attachment: scroll; background-size: cover; overflow-x: hidden; border-bottom: 5px solid goldenrod; width: 100vw; height: 100vh;">
-            <h1 style="font-family: Oswald; font-size: 1000%; text-align: center; margin-top: 14%;">Welcome to My Website</h1>
+    <section id="section2">
+        <div style="background-color: #f7f7f7; width: 100vw; height: 100vh; border-top: 5px solid goldenrod;; border-bottom: 5px solid goldenrod;">
+            <h1 style="font-family: Yantramanav; font-size: 750%; text-align: center; padding-top: 3%;">My Projects</h1>
+            <span style="font-family: Yantramanav; font-size: 400%; margin-top: 2%; margin-left: 20%;"><img src="images/tecp.png" alt="TECP" width="auto" height="10%">TECProject</span>
+            <h3 style="font-family: Hind Siliguri; margin-top: 1%; margin-left: 25%;">The Everyday Coder Project is a  non-profit organization to</h3>
+            <h3 style="font-family: Hind Siliguri; margin-top: 1%; margin-left: 25%;">teach teenagers how to code in Python, HTML, and CSS.</h3>
+            <a href="https://coderproject.tech" target="_blank" class="btn btn-outline-dark" role="button" data-bs-toggle="button" style="margin-bottom: 2%; margin-left: 25%; margin-top: 1%; font-family: Hind Siliguri;">TECP Website</a>
+            <a href="https://discord.gg/myf2yQm" target="_blank" class="btn btn-outline-dark disabled" role="button" data-bs-toggle="button" style="margin-bottom: 2%; margin-left: 1%; margin-top: 1%; font-family: Hind Siliguri;">TECP Discord Server (Coming Soon)</a>
+
+        <br>
+
+            <span style="font-family: Yantramanav; font-size: 400%; margin-left: 20%;"><img src="images/exo.png" alt="TECP" width="auto" height="10%">E X 0 Discord Bot</span>
+            <h3 style="font-family: Hind Siliguri; margin-top: 1%; margin-left: 25%;">E X O is a Verified Discord Bot that suits every need.</h3>
+            <h3 style="font-family: Hind Siliguri; margin-top: 1%; margin-left: 25%;">Proudly performs 75+ commands in Moderation, Maintenance,</h3>
+            <h3 style="font-family: Hind Siliguri; margin-top: 1%; margin-left: 25%;">Fun, Math, Meme, Animal, News and more!</h3>
+            <a href="https://exobot.xyz" target="_blank" class="btn btn-outline-dark" role="button" data-bs-toggle="button" style="margin-bottom: 2%; margin-left: 25%; margin-top: 1%; font-family: Hind Siliguri;">EXO Website</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=707641033210593351&permissions=271969398&redirect_uri=https%3A%2F%2Fexobot.xyz%2Foauth2%2Fauthorized&scope=bot%20applications.commands&response_type=code" target="_blank" class="btn btn-outline-primary" role="button" data-bs-toggle="button" style="margin-bottom: 2%; margin-left: 1%; margin-top: 1%; font-family: Hind Siliguri;">Invite EXO</a>
+            <a href="https://discord.gg/bWJw6nn" target="_blank" class="btn btn-outline-dark" role="button" data-bs-toggle="button" style="margin-bottom: 2%; margin-left: 1%; margin-top: 1%; font-family: Hind Siliguri;">EXO Discord Server</a>
+
         </div>
     </section>
 
     <section>
-        <div style="background-color: whitesmoke; width: 100vw; height: 100vh">
-            <h1 style="font-family: Yantramanav; font-size: 750%; text-align: center; margin-top: 3%;">My Projects</h1>
-        </div>
+        <div style="background-color: #292b2c; width: 100vw; height: 9vh">
+            <!-- <div class="row p-5" style="color: #f7f7f7;">
+                <div class="col-md-3" style="margin-left: 32%;">
+                    <h6 style="font-family: 'Bungee', sans-serif">Projects</h6>
+                    <a class=" link" href="https://exobot.xyz/staff" style="color: goldenrod; font-family: Hind Siliguri;">TECProject</a> <br>
+                    <a class="link" href="https://exobot.xyz/commands" style="color: goldenrod; font-family: Hind Siliguri;">EXO Discord Bot</a> <br>
+                </div>
+                <div class="col-md-3">
+                    <h6 style="font-family: 'Bungee', sans-serif ">Legal</h6>
+                    <a class=" link" href="https://exobot.xyz/terms" style="color: goldenrod; font-family: Hind Siliguri;">Terms of Service</a> <br>
+                    <a class=" link" href="https://exobot.xyz/privacy" style="color: goldenrod; font-family: Hind Siliguri;">Privacy Policy</a> <br>
+                </div>
+            </div> -->
+            <div style="width: 100%; text-align: center; padding-top: 2%; font-family: 'Quicksand', sans-serif; color: gray ">
+                Copyright &copy; 2021 Prathik Pradeep. All Rights Reserved
+            </div>
+        <!-- </div> -->
     </section>
 
 </body>
