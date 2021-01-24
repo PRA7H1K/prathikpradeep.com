@@ -111,4 +111,16 @@ and (min-width : 1224px) {
 @media only screen 
 and (min-width : 1824px) {
 /* Styles */
+.title {
+    font-size: 15em !important;
+    margin-top: 5% !important;
+    margin-bottom: 0% !important;
+}
+.my-name {
+    margin-right: 60% !important;
+}
+.my-projects-dropdown {
+    margin-right: 0%;
+    padding-left: 13%;
+}
 }
