@@ -22,13 +22,13 @@ and (max-device-width : 480px) {
     font-size: 4em !important;
 }
 .tecp-image {
-    display: none
+    display: none;
 }
 .exo-image {
-    display: none
+    display: none;
 }
 .atom-image {
-    display: none
+    display: none;
 }
 .tecp-title {
     font-size: 4em !important;
@@ -87,6 +87,21 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 /* Styles */
+.title {
+    font-size: 10em !important;
+    margin-top: 5% !important;
+    margin-bottom: 0% !important;
+}
+.my-name {
+    margin-right: 60% !important;
+}
+.my-projects-dropdown {
+    margin-right: 0% !important;
+    padding-left: 5% !important;
+}
+.arrow {
+    margin-bottom: 25% !important;
+}
 }
 
 /* Desktops and laptops ----------- */
@@ -102,8 +117,11 @@ and (min-width : 1224px) {
     margin-right: 60% !important;
 }
 .my-projects-dropdown {
-    margin-right: 0%;
-    padding-left: 5%;
+    margin-right: 0% !important;
+    padding-left: 5% !important;
+}
+.arrow {
+    margin-bottom: 25% !important;
 }
 }
 
@@ -120,7 +138,7 @@ and (min-width : 1824px) {
     margin-right: 60% !important;
 }
 .my-projects-dropdown {
-    margin-right: 0%;
-    padding-left: 13%;
+    margin-right: 0% !important;
+    padding-left: 13% !important;
 }
 }
