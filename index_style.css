@@ -29,9 +29,44 @@ and (max-width : 320px) {
 .atom-image {
     display: none
 }
-.tecp-title {
-    font-size: 3em !important;
-    margin-right: 10em !important;
+.project-name {
+    font-size: 4em !important;
+    margin-left: 0% !important;
+    text-align: center !important;
+}
+.desc {
+    margin-left: 10% !important;
+}
+.me-title {
+    font-size: 5em !important;
+}
+.about-me {
+    font-size: 1.5em !important;
+    line-height: 100% !important;
+    word-spacing: 1% !important;
+    text-align: center !important;
+}
+.me {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+.not-established {
+    margin-left: 25% !important;
+}
+.coming-soon {
+    display: none !important;
+}
+.atom-title {
+    margin-left: 7% !important;
+}
+.still-in-development {
+    margin-left: 23% !important;
+}
+.exo-invite {
+    margin-left: 28% !important;
+}
+.exo-discord {
+    margin-left: 18% !important;
 }
 }
 
