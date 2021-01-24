@@ -9,7 +9,8 @@
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px) {
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 /* Styles */
 .title {
     font-size: 5em !important;
@@ -18,7 +19,7 @@ and (max-width : 320px) {
     display: none;
 }
 .myprojects {
-    font-size: 5em !important;
+    font-size: 4em !important;
 }
 .tecp-image {
     display: none
@@ -31,7 +32,7 @@ and (max-width : 320px) {
 }
 .tecp-title {
     font-size: 4em !important;
-    margin-left: 0% !important;
+    margin-left: 7% !important;
     text-align: center !important;
 }
 .exo-title {
@@ -48,7 +49,7 @@ and (max-width : 320px) {
     margin-left: 10% !important;
 }
 .me-title {
-    font-size: 5em !important;
+    font-size: 4em !important;
 }
 .about-me {
     font-size: 1.5em !important;
@@ -67,7 +68,7 @@ and (max-width : 320px) {
     display: none !important;
 }
 .atom-title {
-    margin-left: 7% !important;
+    margin-left: 13% !important;
 }
 .still-in-development {
     margin-left: 23% !important;
