@@ -6,3 +6,47 @@
         margin-top: -1em;
     }
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+.title {
+    font-size: 5em !important;
+}
+.prathik {
+    display: none;
+}
+.myprojects {
+    font-size: 5em !important;
+}
+.tecp-image {
+    display: none
+}
+.exo-image {
+    display: none
+}
+.atom-image {
+    display: none
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
