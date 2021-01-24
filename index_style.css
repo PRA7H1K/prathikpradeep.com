@@ -109,9 +109,9 @@ and (orientation : portrait) {
 and (min-width : 1224px) {
 /* Styles */
 .title {
-    font-size: 10em !important;
+    font-size: 9em !important;
     margin-top: 5% !important;
-    margin-bottom: 0% !important;
+    margin-bottom: 5% !important;
 }
 .my-name {
     margin-right: 60% !important;
@@ -119,9 +119,6 @@ and (min-width : 1224px) {
 .my-projects-dropdown {
     margin-right: 0% !important;
     padding-left: 5% !important;
-}
-.arrow {
-    margin-bottom: 25% !important;
 }
 }
 
