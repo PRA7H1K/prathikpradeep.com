@@ -29,7 +29,17 @@ and (max-width : 320px) {
 .atom-image {
     display: none
 }
-.project-name {
+.tecp-title {
+    font-size: 4em !important;
+    margin-left: 0% !important;
+    text-align: center !important;
+}
+.exo-title {
+    font-size: 4em !important;
+    margin-left: 24% !important;
+    text-align: center !important;
+}
+.atom-title {
     font-size: 4em !important;
     margin-left: 0% !important;
     text-align: center !important;
