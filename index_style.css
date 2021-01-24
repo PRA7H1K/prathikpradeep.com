@@ -1,8 +1,8 @@
 @keyframes moveUp {
     from {
-        margin-top: 1.5em;
+        margin-top: 1em;
     }
     to {
-        margin-top: -1.5em;
+        margin-top: -1em;
     }
 }
