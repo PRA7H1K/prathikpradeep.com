@@ -137,9 +137,11 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 /* Styles */
 .title {
-    font-size: 15em !important;
+    font-size: 13em !important;
     margin-top: 10% !important;
     margin-bottom: 0% !important;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 .my-name {
     margin-right: 60% !important;
