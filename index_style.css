@@ -13,8 +13,11 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
 .title {
-    font-size: 5em !important;
-    margin-top: 40% !important;
+    font-size: 4em !important;
+    margin-top: 15% !important;
+}
+.arrow {
+    display: none !important;
 }
 .prathik {
     display: none;
@@ -33,17 +36,12 @@ and (max-device-width : 480px) {
 }
 .tecp-title {
     font-size: 4em !important;
-    margin-left: 7% !important;
+    margin-left: 0.1% !important;
     text-align: center !important;
 }
 .exo-title {
     font-size: 4em !important;
     margin-left: 24% !important;
-    text-align: center !important;
-}
-.atom-title {
-    font-size: 4em !important;
-    margin-left: 0% !important;
     text-align: center !important;
 }
 .desc {
@@ -69,7 +67,7 @@ and (max-device-width : 480px) {
     display: none !important;
 }
 .atom-title {
-    margin-left: 13% !important;
+    margin-left: 10% !important;
 }
 .still-in-development {
     margin-left: 23% !important;
@@ -88,48 +86,11 @@ and (max-device-width : 480px) {
 }
 }
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-.title {
-    font-size: 10em !important;
-    margin-top: 10% !important;
-    margin-bottom: 0% !important;
-}
-.my-name {
-    margin-right: 60% !important;
-}
-.my-projects-dropdown {
-    margin-right: 0% !important;
-    padding-left: 5% !important;
-}
-.arrow {
-    margin-bottom: 25% !important;
-}
-}
-
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-.title {
-    font-size: 8em !important;
-    margin-top: 13% !important;
-    margin-bottom: 4% !important;
-}
-.my-name {
-    margin-right: 60% !important;
-}
-.my-projects-dropdown {
-    margin-right: 0% !important;
-    padding-left: 5% !important;
-}
-.arrow {
-    margin-bottom: 10%;
-}
+
 }
 
 /* Large screens ----------- */
@@ -137,17 +98,6 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 /* Styles */
 .title {
-    font-size: 13em !important;
-    margin-top: 10% !important;
-    margin-bottom: 0% !important;
-    margin-right: 1%;
-    margin-left: 1%;
-}
-.my-name {
-    margin-right: 60% !important;
-}
-.my-projects-dropdown {
-    margin-right: 0% !important;
-    padding-left: 13% !important;
+    margin-top: 7% !important;
 }
 }
