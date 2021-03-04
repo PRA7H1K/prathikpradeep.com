@@ -10,7 +10,15 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-
+.title {
+    text-align: center;
+    font-size: 800% !important;
+    margin-top: 15% !important;
+}
+/* .button-dev {
+    margin-left: 31% !important;
+}
+} */
 
 /* Large screens ----------- */
 @media only screen 
