@@ -90,7 +90,10 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-
+.title {
+    font-size: 800% !important;
+    margin-top: 7% !important;
+}
 }
 
 /* Large screens ----------- */

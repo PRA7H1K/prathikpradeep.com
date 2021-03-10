@@ -1,23 +1,106 @@
+@keyframes moveUp {
+    from {
+        margin-top: 1em;
+    }
+    to {
+        margin-top: -1em;
+    }
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-
+.title {
+    font-size: 4em !important;
+    margin-top: 15% !important;
+}
+.arrow {
+    display: none !important;
+}
+.prathik {
+    display: none;
+}
+.myprojects {
+    font-size: 4em !important;
+}
+.tecp-image {
+    display: none
+}
+.exo-image {
+    display: none
+}
+.atom-image {
+    display: none
+}
+.tecp-title {
+    font-size: 4em !important;
+    margin-left: 0.1% !important;
+    text-align: center !important;
+}
+.exo-title {
+    font-size: 4em !important;
+    margin-left: 24% !important;
+    text-align: center !important;
+}
+.desc {
+    margin-left: 10% !important;
+}
+.me-title {
+    font-size: 4em !important;
+}
+.about-me {
+    font-size: 1.5em !important;
+    line-height: 100% !important;
+    word-spacing: 1% !important;
+    text-align: center !important;
+}
+.me {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+.not-established {
+    margin-left: 25% !important;
+}
+.coming-soon {
+    display: none !important;
+}
+.atom-title {
+    margin-left: 10% !important;
+}
+.still-in-development {
+    margin-left: 23% !important;
+}
+.exo-invite {
+    margin-left: 28% !important;
+}
+.exo-discord {
+    margin-left: 19% !important;
+}
+.tecp-github {
+    margin-left: 26.255% !important;
+}
+.exo-github {
+    margin-left: 26.255% !important;
+}
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-
+.title {
+    font-size: 800% !important;
+    margin-top: 7% !important;
+}
+}
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
 /* Styles */
 .title {
-    margin-top: 10% !important;
-    text-align: center !important;
+    margin-top: 7% !important;
 }
 }
