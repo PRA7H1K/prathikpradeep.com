@@ -1,9 +1,9 @@
 This is the GitHub repository for my personal website.
 
-Main Website: https://prathik.me
+Website: https://prathik.me
 
-Developer Website: https://dev.prathik.me
+Developer Page: https://dev.prathik.me/dev
 
-School Projects: https://school.prathik.me
+School Page: https://prathik.me/school
 
 Copyright © 2021 Prathik Pradeep. All Rights Reserved
