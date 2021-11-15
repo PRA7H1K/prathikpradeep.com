@@ -43,11 +43,11 @@
 <body style="overflow-x: hidden;">
 
     <section class="section" style="width: 100vw; height: 100vh;">
-        <nav class="navbar navbar-dark bg-dark sticky-top" style="padding-top: 1em; padding-bottom: 1em;">
+        <nav class="navbar fixed-top glass" style="padding-top: 1em; padding-bottom: 1em;">
                     
-            <div class="name-picture" style="padding: 0; margin-right: 1%;"><img class="prathik" src="images/prathik.png" alt="alternatetext" width="10%" height="10%" style="margin-right: 4%; margin-left: 1%;"><a class="navbar-brand my-name" href="/" style="font-size: 140%; font-family: Bungee;">Prathik Pradeep</a></div>
+            <div class="name-picture" style="margin-right: 1%;"><img class="prathik" src="images/prathik.png" alt="alternatetext" width="10%" height="10%" style="margin-right: 4%; margin-left: 1%;"><a class="navbar-brand my-name" href="/" style="font-size: 140%; font-family: Bungee; color: white;">Prathik Pradeep</a></div>
 
-            <div style="padding: 0; margin-right: 1%;">
+            <div style="margin-right: 1%;">
                 <a href="https://discord.com/users/511943071655526411" target="_blank"><img src="images/discord dark.png" alt="alternatetext"></a>
                 <a href="https://www.instagram.com/prathik_pradeep/" target="_blank" style="margin-left: 1em;"><img src="images/instagram dark.png" alt="alternatetext"></a>
                 <a href="https://github.com/PRA7H1K" target="_blank" style="margin-left: 1em;"><img src="images/github.png" alt="alternatetext"></a>
@@ -56,7 +56,7 @@
         </nav>
 
         <div style="background-image: url('background.png'); background-repeat: no-repeat; background-attachment: scroll; background-size: 100% 100%; overflow-x: hidden; overflow-y: hidden; width: 100vw; height: 100vh;">
-            <h1 class="title" style="font-family: Montserrat; font-size: 1000%; text-align: center; margin-top: 13%; margin-bottom: 5%;">My Developer Profile</h1>
+            <h1 class="title" style="font-family: 'Quicksand', sans-serif; font-weight: 300; font-size: 975%; text-align: center; margin-top: 10%; margin-bottom: 3%;">My Developer Profile</h1>
             <div style="text-align: center;">
                 <a class="ct-btn-scroll ct-js-btn-scroll" href="#me"><img class="arrow" alt="Arrow Down Icon" src="images/down-arrow.png" style="animation-name: moveUp; animation-duration: 1.5s; animation-iteration-count: infinite; animation-direction: alternate;"></a>
             </div>
@@ -130,5 +130,19 @@
         return false;
 });
 </script>
+
+<style>
+    .glass {
+        backdrop-filter: blur(5px) saturate(180%);
+        -webkit-backdrop-filter: blur(5px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.75);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 0.5%;
+        color: white;
+    }
+</style>
 
 </html>

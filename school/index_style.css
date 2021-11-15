@@ -86,16 +86,6 @@ and (max-device-width : 480px) {
 }
 }
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-.title {
-    font-size: 800% !important;
-    margin-top: 7% !important;
-}
-}
-
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
