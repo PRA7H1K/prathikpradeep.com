@@ -49,10 +49,10 @@
 
         </nav> -->
         <div style="background-color: #3A4750; background-repeat: no-repeat; background-attachment: scroll; background-size: 100% 100%; overflow-x: hidden; overflow-y: hidden; width: 100%; height: 100%;">
-            <h6 class="top">IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT 
+            <h6 class="top blink2" style="color: rgba(0, 0, 0, 0.281); opacity: 0;">IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT IMAKERANDOMSHIT 
             </h6>
-            <h1 class="title" style="font-family: 'Bebas Neue', cursive; font-weight: 300; font-size: 975%; text-align: center; margin-top: 10%; color: #EEEEEE;">Prathik Pradeep</h1>
-            <h1 class="title" style="font-family: 'quicksand'; font-weight: 300; font-size: 250%; text-align: center; margin-top: 1%; color: #D72323;">I MAKE RANDOM SHIT</h1>
+            <h1 class="title blink1" style="color: rgba(0, 0, 0, 0.281); opacity: 0; font-family: 'Bebas Neue', cursive; font-weight: 300; font-size: 975%; text-align: center; margin: auto; width: 100%; padding: 10%;">Prathik Pradeep</h1>
+            <!-- <h1 class="title" style="font-family: 'quicksand'; font-weight: 300; font-size: 250%; text-align: center; margin-top: 1%; color: #D72323;">I MAKE RANDOM SHIT</h1> -->
 
         </div>
 
@@ -77,6 +77,64 @@
     overflow: hidden;
     color: #D72323;
 }
+
+.blink1 {
+        animation-duration: 1.5s;
+        animation-name: blinky;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes blinky {
+        from {
+            color: rgba(0, 0, 0, 0.164);
+            opacity: 0;
+        }
+        70% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        80% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        85% {
+            color: #ededed;
+        }
+        90% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        to {
+            color: #EEEEEE;
+            opacity: 1;
+        }
+    }
+
+    .blink2 {
+        animation-duration: 2.2s;
+        animation-name: blinky2;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes blinky2 {
+        from {
+            color: rgba(0, 0, 0, 0.164);
+            opacity: 0;
+        }
+        70% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        80% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        85% {
+            color: #D72323;
+        }
+        90% {
+            color: rgba(0, 0, 0, 0.164);
+        }
+        to {
+            color: #D72323;
+            opacity: 1;
+        }
+    }
 </style>
 
 </html>
