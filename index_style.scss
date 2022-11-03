@@ -50,3 +50,8 @@ $mynewcolor:#77cccc;
 .btn-outline-primary {
     @include button-outline-variant($mynewcolor, #222222, lighten($mynewcolor,5%), $mynewcolor);
 }
+
+
+.old:hover {
+    color: blue !important;
+}
